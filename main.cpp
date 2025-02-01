@@ -1,5 +1,5 @@
-#include <iostream>
 using namespace std;
+#include <iostream>
 #include <string>
 #include <list>
 
@@ -11,51 +11,86 @@ class Task {
         string description;
 };
 
-void addTask(list<Task> tasks, Task newTask){
-    cout << "We are inside the addTask function" << endl;
-    tasks.push_front(newTask);
+int getGreatestId(list<Task> tasks){
+    int greater = 0;
+
     for (Task i: tasks){
-        cout << i.description << " sono \n";
+        if (greater < i.id){
+            greater = i.id;
+        }
     }
+    return greater;
+
 }
 
-void removeTask(list<Task> tasks, Task newTask){
-    cout << "We are inside the removeTask function" << endl;
+int getTaskId(list<Task> tasks){
+    if (tasks.empty()){
+        return 1;
+    }
+    cout << "Task ID Found inside getTaskId Function: " << getGreatestId(tasks);
+    return getGreatestId(tasks) + 1;
 }
-
-void viewTask(list<Task> tasks, Task newTask){
-    cout << "We are inside the viewTask function" << endl;
-}
-
 
 int main(){
     list<Task> tasks;
-    cout << "To do List Manager" << endl;
-    cout << "Please choose an action:" << endl;
-    cout << "1: Add task" << endl;
-    cout << "2: Remove task" << endl;
-    cout << "3: View task" << endl;
-
     string option;
+    list<int> indexes;
     while (true){
+        cout << "\nTo do List Manager\n";
+        cout << "Please choose an action:\n";
+        cout << "1: Add task\n";
+        cout << "2: Remove task\n";
+        cout << "3: View task\n";
+
         cin >> option;
         Task newTask;
 
         if (option == "1"){
-            newTask.id = 2;
-            newTask.description = "anamana";
-            addTask(tasks, newTask);
-            break;
+            cout << "Enter the new Task description: (Add a forward slash / at the end of the description and then press Enter to finish describing it.\n";
+            std::getline(cin, newTask.description, '/');
+            
+            newTask.id = getTaskId(tasks);
+            tasks.push_front(newTask);
+            indexes.push_front(newTask.id);
+            cout << "\nID Generated for this Task: " << newTask.id << "\n";
+            continue;
         }
 
         if (option == "2"){
-            removeTask(tasks, newTask);
-            break;
+            cout << "Enter the ID of the Task to be deleted: \n";
+            int id;
+            cin >> id;
+
+            for (Task i: tasks){
+                if (i.id == id){
+                    indexes.remove((int)i.id);
+                    cout << "Task deleted: Description: " << i.description << ". ID: " << i.id << "\n";
+                }
+                
+            }
+
+            for (int i: indexes){
+                cout << "Index existent: " << i << "\n";
+            }
+            
+            continue;
         }
 
         if (option == "3"){
-            viewTask(tasks, newTask);
-            break;
+            cout << "Enter the ID of the Task to be Viewed: \n";
+            int id;
+            cin >> id;
+            for (int index: indexes){
+                if (id == index){
+                    for (Task task: tasks){
+                        if (task.id == id){
+                            cout << "Task View: Description: " << task.description << ". ID: " << task.id << "\n";
+                        }
+                    }
+                }
+            }
+            continue;
+
         }
 
         cout << "You must choose betwee 1 and 3" << endl;
