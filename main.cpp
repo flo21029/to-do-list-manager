@@ -13,7 +13,6 @@ class Task {
 
 int getGreatestId(list<Task> tasks){
     int greater = 0;
-
     for (Task i: tasks){
         if (greater < i.id){
             greater = i.id;
@@ -96,9 +95,7 @@ int main(){
             }
             continue;
         }
-
         cout << "You must choose betwee 1 and 3" << endl;
-
     }
     return 0;
 }

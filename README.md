@@ -1,32 +1,58 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Software aimed to provide a task management system through a terminal interface in the c++ language.
 
-{Provide a description of the software that you wrote to demonstrate the C++ language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+The purpose of this software is to develop my skills as a software engineer, by understanding variables, loops, and receiving input in this programming language.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Tool used to develop this software: VSCode and a Debian server with the g++ command line interface.
 
-{Describe the programming language that you used and any libraries.}
+Programming language used: C++, the libraries used are those that come by default with this programming language.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [cplusplus.com](https://cplusplus.com/forum/beginner/51814/)
+- [cplusplus.com](https://cplusplus.com/forum/beginner/88378/)
+- [cplusplus.com](https://cplusplus.com/forum/beginner/235373/)
+- [cplusplus.com](https://cplusplus.com/reference/list/list/remove/)
+- [stackoverflow.com](https://stackoverflow.com/questions/11713842/visual-c-cant-open-include-file-iostream)
+- [stackoverflow.com](https://stackoverflow.com/questions/15446951/how-to-cin-whole-sentence-with-whitespaces)
+- [stackoverflow.com](https://stackoverflow.com/questions/21257544/c-wait-for-user-input)
+- [stackoverflow.com](https://stackoverflow.com/questions/31479556/exiting-loop-using-enterreturn-key-c)
+- [stackoverflow.com](https://stackoverflow.com/questions/39193327/how-to-ask-for-input-again-c)
+- [stackoverflow.com](https://stackoverflow.com/questions/57079915/how-doi-use-stdstring-to-get-user-console-input)
+- [stackoverflow.com](https://stackoverflow.com/questions/5882872/reading-a-full-line-of-input)
+- [stackoverflow.com](https://stackoverflow.com/questions/58926118/c-input-validation-why-is-a-0-returned-when-i-input-a-letter)
+- [stackoverflow.com](https://stackoverflow.com/questions/73347313/error-with-vscode-cpptools-cl-exe-build-and-debug-is-only-usable-when-vs-code)
+- [stackoverflow.com](https://stackoverflow.com/questions/9270145/c-getline-i-cant-avoid-reading-the-enter-key)
+- [www.cyberciti.biz](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/)
+- [www.digitalocean.com](https://www.digitalocean.com/community/tutorials/getline-in-c-plus-plus)
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-access-the-last-element-of-a-list-in-cpp/)
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/list-remove-function-in-c-stl/)
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/program-check-input-integer-string/)
+- [www.quora.com](https://www.quora.com/How-do-you-check-if-a-list-contains-an-element-in-the-C-programming-language)
+- [www.simplilearn.com](https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-getline)
+- [www.swhosting.com](https://www.swhosting.com/en/comunidad/manual/create-your-first-c-program-on-ubuntu-2204-or-debian-11)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_classes.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_comments.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_conditions.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_functions.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_list.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_operators_comparison.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_operators_logical.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_scope.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_strings_concat.asp)
+
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+List of things that need to be fixed,improved, or added in the future:
 
-- Item 1
-- Item 2
-- Item 3
+- Item 1: Connect C++ to a relational database to insert, delete and view tasks.
+- Item 2: Add the possibility to update a task.
+- Item 3: Add the possibility to login to view tasks per user.
