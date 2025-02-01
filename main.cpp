@@ -20,7 +20,6 @@ int getGreatestId(list<Task> tasks){
         }
     }
     return greater;
-
 }
 
 int getTaskId(list<Task> tasks){
@@ -66,13 +65,11 @@ int main(){
                     indexes.remove((int)i.id);
                     cout << "Task deleted: Description: " << i.description << ". ID: " << i.id << "\n";
                 }
-                
             }
 
             for (int i: indexes){
                 cout << "Index existent: " << i << "\n";
             }
-            
             continue;
         }
 
@@ -80,6 +77,7 @@ int main(){
             cout << "Enter the ID of the Task to be Viewed: \n";
             int id;
             cin >> id;
+            int countIterations = 0;
             for (int index: indexes){
                 if (id == index){
                     for (Task task: tasks){
@@ -88,16 +86,19 @@ int main(){
                         }
                     }
                 }
+                else {
+                    countIterations++;
+                }
+                if (indexes.size() == countIterations){
+                    cout << "Task ID does not exist, please enter another ID." << "\n";
+                    continue;
+                }
             }
             continue;
-
         }
 
         cout << "You must choose betwee 1 and 3" << endl;
 
     }
-
-
-    
     return 0;
 }
