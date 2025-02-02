@@ -4,7 +4,7 @@ Software aimed to provide a task management system through a terminal interface 
 
 The purpose of this software is to develop my skills as a software engineer, by understanding variables, loops, and receiving input in this programming language.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/6kgRyUyvQ-s)
 
 # Development Environment
 
@@ -20,6 +20,10 @@ Programming language used: C++, the libraries used are those that come by defaul
 - [cplusplus.com](https://cplusplus.com/forum/beginner/88378/)
 - [cplusplus.com](https://cplusplus.com/forum/beginner/235373/)
 - [cplusplus.com](https://cplusplus.com/reference/list/list/remove/)
+- [en.cppreference.com](https://en.cppreference.com/w/cpp/language/expressions)
+- [learn.microsoft.com](https://learn.microsoft.com/en-us/cpp/cpp/new-operator-cpp?view=msvc-170)
+- [stackoverflow.com](https://stackoverflow.com/questions/655065/when-should-i-use-the-new-keyword-in-c)
+- [stackoverflow.com](https://stackoverflow.com/questions/679571/when-to-use-new-and-when-not-to-in-c)
 - [stackoverflow.com](https://stackoverflow.com/questions/11713842/visual-c-cant-open-include-file-iostream)
 - [stackoverflow.com](https://stackoverflow.com/questions/15446951/how-to-cin-whole-sentence-with-whitespaces)
 - [stackoverflow.com](https://stackoverflow.com/questions/21257544/c-wait-for-user-input)
@@ -41,13 +45,14 @@ Programming language used: C++, the libraries used are those that come by defaul
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_classes.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_comments.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_conditions.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_constructors.asp)
+- [www.w3schools.com](https://www.w3schools.com/cpp/cpp_files.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_functions.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_list.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_operators_comparison.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_operators_logical.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_scope.asp)
 - [www.w3schools.com](https://www.w3schools.com/cpp/cpp_strings_concat.asp)
-
 
 # Future Work
 
